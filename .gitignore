@@ -1,0 +1,25 @@
+
+# **/__pycache__/
+
+# *.pyc
+
+# **/keys/*
+
+# .vscode/settings.json
+
+
+# dump
+# test-meeting-attendees.txt
+# data
+
+# **/creds/
+
+# **/secrets/
+# **/.venv/
+# .env
+# playground/
+# letsencrypt/
+
+# **/.pytest_cache/
+# .env.prod
+# **/desktop.ini
