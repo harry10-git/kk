@@ -9,7 +9,7 @@ from pydrive2.auth import GoogleAuth
 from oauth2client.service_account import ServiceAccountCredentials
 
 myclient = pymongo.MongoClient(
-    "mongodb://mongodb:27017", uuidRepresentation="standard")
+    "mongodb+srv://harryraj1413:swati-di@jf.zpa613a.mongodb.net/?retryWrites=true&w=majority", uuidRepresentation="standard")
 database_name = settings.MONGO_DATABASE if settings.DEPLOYED else settings.TEST_MONGO_DATABASE
 if database_name not in myclient.list_database_names():
     myclient[database_name].create_collection("needed_reviews")
